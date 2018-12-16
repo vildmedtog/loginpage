@@ -1,3 +1,6 @@
 [submodule "angular"]
 	path = angular
 	url = https://github.com/vildmedtog/AngularJsTest
+[submodule "bootstrap"]
+	path = bootstrap
+	url = https://github.com/vildmedtog/BootstrapTest
