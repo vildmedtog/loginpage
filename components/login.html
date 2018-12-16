@@ -1,0 +1,19 @@
+<form class="form-signin">
+	<div class="text-center mb-4" id="loginFrom" >
+		<p class="mt-5 mb-3 text-muted text-center">Please sign in</p>
+	</div>
+	
+	<div class="form-label-group">
+		<input type="Username" class="form-control" id="inputUsername"  ng-model="username" placeholder="Username" required autofocus>
+		<label for="inputUsername">Username</label>
+	</div>
+
+	<div class="form-label-group">
+		<input type="password" id="inputPassword" class="form-control" ng-model="password" placeholder="Password" required="">
+		<label for="inputPassword">Password</label>
+	</div>
+
+	<button class="btn btn-lg btn-primary btn-block" type="submit" ng-click="login()">Login</button>
+</form>
+
+
